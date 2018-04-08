@@ -1,1 +1,15 @@
 
+{
+  "name": "gamingbot",
+  "version": "1.0.0",
+  "description": "Pinas Gaming Community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Novacore",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
