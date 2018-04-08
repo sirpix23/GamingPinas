@@ -1,9 +1,5 @@
 const Discord = require("discord.js");
-
-const TOKEN = "NDMyMzQ2MzExNzY5OTgwOTI4.DasCkw.2QGObh0JhKtqb6SYjjqhvOXVH7k"
-
-
-var bot = new Discord.Client();
+const bot = new Discord.Client();
 
 bot.on("ready", function(message) {
     console.log("Ready");   
@@ -23,4 +19,4 @@ bot.on("serverNewMember", function (server, user) {
            mybot.addMemberToRole(user, server.roles.get("name", "Guest"), function (err) { if (err) console.log(err) })
 });
 
-bot.login(TOKEN);
+bot.login(process.env.BOT_TOKEN);
