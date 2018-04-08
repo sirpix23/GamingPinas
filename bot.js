@@ -8,9 +8,12 @@ bot.on("ready", function(message) {
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
 
-    if (message.content == "What is this" || message.content == "what is this" || 
-    message.content == "What is this?" || message.content == "what is this?") {
+    if (message.content == "GP! invite" || message.content == "gp! invite" || 
+        message.content == "GP! Invite" || message.content == "gp! Invite" ||
+        message.content == "GP! INVITE" || message.content == "gp! INVITE") {
+        
         message.channel.sendMessage("This is a discord community server for filipino gamers!");
+    
     }
 
 });
