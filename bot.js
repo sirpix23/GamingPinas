@@ -12,7 +12,7 @@ bot.on("message", function(message) {
         message.content == "GP! Invite" || message.content == "gp! Invite" ||
         message.content == "GP! INVITE" || message.content == "gp! INVITE") {
         
-        message.channel.sendMessage("This is a discord community server for filipino gamers!");
+        message.channel.sendMessage("GamingPinas Permanent Invite Link: https://discord.gg/SDsuXax");
     
     }
 
